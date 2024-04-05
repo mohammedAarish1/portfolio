@@ -1,0 +1,15 @@
+.animate {
+    animation: move-rtl 8s linear infinite;
+
+}
+
+@keyframes move-rtl {
+    0% {
+        transform: translateX(0);
+
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
