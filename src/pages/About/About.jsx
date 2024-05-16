@@ -72,7 +72,7 @@ export default function About() {
                         <div className='mt-4'>
                             <Link to="contact" spy={true} smooth={true} offset={-80} duration={500}>
 
-                                <Button title="Hire me!" />
+                                <Button title="Contact me!" />
                             </Link>
                         </div>
                         {/* <button className='lg:px-12 px-5 py-2 mt-6 rounded shadow-md shadow-purple font-bold border bg-white text-purple-600'>Hire me!</button> */}

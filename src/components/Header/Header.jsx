@@ -41,11 +41,11 @@ export default function Header() {
           </div>
           <ul className={` flex flex-col  gap-7 absolute -right-8 top-12 px-5 py-5 bg-[--primary-color] ${showMobMenu ? 'flex' : 'hidden'}`}>
 
-            <Link activeClass="active" to="home" spy={true} smooth={true} offset={-80} duration={500} className='px-20 py-2 shadow-white shadow-md cursor-pointer' onClick={() => setShowMobMenu(false)} >Home</Link>
-            <Link activeClass="active" to="about" spy={true} smooth={true} offset={-80} duration={500} className='px-4 py-2 shadow-white shadow-md cursor-pointer ' onClick={() => setShowMobMenu(false)} >About</Link>
-            <Link activeClass="active" to="skills" spy={true} smooth={true} offset={-80} duration={500} className='px-4 py-2 shadow-white shadow-md cursor-pointer ' onClick={() => setShowMobMenu(false)} >Skillset</Link>
-            <Link activeClass="active" to="projects" spy={true} smooth={true} offset={-80} duration={500} className='px-4 py-2 shadow-white shadow-md cursor-pointer ' onClick={() => setShowMobMenu(false)} >Projects</Link>
-            <Link activeClass="active" to="contact" spy={true} smooth={true} offset={-80} duration={500} className='px-4 py-2 shadow-white shadow-md cursor-pointer ' onClick={() => setShowMobMenu(false)} >Contact</Link>
+            <Link activeClass="active" to="home" spy={true} smooth={true} offset={-80} duration={500} className='px-20 py-2  shadow-white shadow-md cursor-pointer hover:bg-white hover:text-[var(--font-color-links)]' onClick={() => setShowMobMenu(false)} >Home</Link>
+            <Link activeClass="active" to="about" spy={true} smooth={true} offset={-80} duration={500} className='px-20 py-2  shadow-white shadow-md cursor-pointer hover:bg-white hover:text-[var(--font-color-links)]' onClick={() => setShowMobMenu(false)} >About</Link>
+            <Link activeClass="active" to="skills" spy={true} smooth={true} offset={-80} duration={500} className='px-20 py-2 shadow-white shadow-md cursor-pointer hover:bg-white hover:text-[var(--font-color-links)] ' onClick={() => setShowMobMenu(false)} >Skillset</Link>
+            <Link activeClass="active" to="projects" spy={true} smooth={true} offset={-80} duration={500} className='px-20 py-2 shadow-white shadow-md cursor-pointer hover:bg-white hover:text-[var(--font-color-links)] ' onClick={() => setShowMobMenu(false)} >Projects</Link>
+            <Link activeClass="active" to="contact" spy={true} smooth={true} offset={-80} duration={500} className='px-20 py-2 shadow-white shadow-md cursor-pointer hover:bg-white hover:text-[var(--font-color-links)] ' onClick={() => setShowMobMenu(false)} >Contact</Link>
           </ul>
         </div>
       </div>

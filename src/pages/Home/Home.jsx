@@ -46,7 +46,7 @@ export default function Home() {
             {/* <button className='lg:px-12 md:px-5 px-2 py-2 rounded shadow-md shadow-slate-50 border bg-transparent text-white'>Hire me!</button> */}
             <Link to="contact" spy={true} smooth={true} offset={-80} duration={500} >
 
-              <Button title="Hire me !" />
+              <Button title="Contact me !" />
             </Link>
           </div>
           <div className='flex gap-2 mt-2 justify-start items-center'>
