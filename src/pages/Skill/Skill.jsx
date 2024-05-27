@@ -64,6 +64,12 @@ export default function Skill() {
                             </div>
                             <h2 className='text-center mt-3 font-bold'>BOOTSTRAP</h2>
                         </div>
+                        <div className=' p-6 rounded-lg shadow-md shadow-white' data-aos="zoom-out" data-aos-duration="2000" >
+                            <div className='bg-[#A25FA6] w-24 h-24 rounded-full flex justify-center items-center'>
+                                <img src="skill_images/redux.png" alt="tailwind" className='w-12' />
+                            </div>
+                            <h2 className='text-center mt-3 font-bold'>REDUX JS</h2>
+                        </div>
 
 
                     </div>

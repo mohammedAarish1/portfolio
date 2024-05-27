@@ -12,7 +12,7 @@ export default function Projects() {
 
     return (
         <section id="projects">
-            <div className=' mt-20  relative'>
+            <div className=' my-20  relative'>
                 <h2 className='  text-3xl tracking-[15px] flex md:px-[100px] px-[30px] items-center' data-aos="zoom-in" data-aos-duration="2000"><span className=' text-purple-500'>Projects </span> <FiArrowDownRight /> </h2>
                 <div className=' flex justify-center gap-5 my-5 py-4 '>
                     <button className='lg:px-12 md:px-5 px-2 py-2 rounded shadow-md shadow-slate-50 border bg-transparent  hover:bg-white hover:text-purple-600 hover:scale-75 ' onClick={() => setProjects(true)} data-aos="fade-right" data-aos-duration="2000" >JS Projects</button>
