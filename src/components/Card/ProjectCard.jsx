@@ -8,11 +8,11 @@ const ProjectCard = (project) => {
     return (
 
 
-        <div class="lg:w-[25%] sm:w-[40%] bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700" data-aos="flip-up" data-aos-duration="2000">
+        <div class="flex flex-col justify-between lg:w-[25%] sm:w-[40%] bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700" data-aos="flip-up" data-aos-duration="2000">
             <a href={siteLink} target='_blank'>
                 <img class="rounded-t-lg min-h-[200px]" src={img} alt="foodyDesign" />
             </a>
-            <div class="p-5" >
+            <div class="p-5 flex flex-col justify-between h-full" >
                 <a href={siteLink} target='_blank'>
                     <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{title}</h5>
                 </a>

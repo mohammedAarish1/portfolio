@@ -10,10 +10,18 @@ const JSprojects = [
     {
         id: 2,
         title: "Foody",
-        description: "Made this fully responsive beautiful foody Website design using HTML, CSS and Javascript with multi-color theme and parallax effect",
+        description: "Made this fully responsive beautiful foody Website design using HTML, CSS, Javascript and Bootstrap with multi-color theme and parallax effect",
         img: "projects-images/foody.png",
         gitHubLink: "https://github.com/mohammedAarish1/Foody_Website_Design",
         siteLink: "https://heyfoody.netlify.app/",
+    },
+    {
+        id: 3,
+        title: "TazZA",
+        description: "Made this fully responsive multi-page Website design using HTML, CSS, Javascript and Bootstrap with animation on scroll",
+        img: "projects-images/tazza.png",
+        gitHubLink: "https://github.com/mohammedAarish1/MultiPage_Website_Design",
+        siteLink: "https://taazza.netlify.app/",
     },
 ]
 
