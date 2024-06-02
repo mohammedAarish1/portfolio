@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react'
-import { IoLogoLinkedin } from "react-icons/io5";
 import { SiInstagram } from "react-icons/si";
 import { HiMail } from "react-icons/hi";
+import { FaGithub } from "react-icons/fa";
 import Typed from 'typed.js';
 import Button from '../../components/Buttons/Button';
 import { Link } from 'react-scroll';
@@ -50,7 +50,7 @@ export default function Home() {
             </Link>
           </div>
           <div className='flex gap-2 mt-2 justify-start items-center'>
-            <a href="https://www.linkedin.com/in/md-aarish-88225a302/" target='_blank' className='text-2xl hover:text-purple-600'><IoLogoLinkedin /></a>
+            <a href="https://github.com/mohammedAarish1?tab=repositories" target='_blank' className='text-2xl hover:text-purple-600'><FaGithub /></a>
             <a href="https://www.instagram.com/" target='_blank' className='text-xl hover:text-purple-600' ><SiInstagram /></a>
             <a href="mailto:iammdaarish@gmail.com" target='_blank' className='text-3xl hover:text-purple-600'><HiMail /></a>
           </div>
