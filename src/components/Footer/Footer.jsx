@@ -1,8 +1,8 @@
 import React from 'react'
 import { IoMail } from "react-icons/io5";
-import { IoLogoLinkedin } from "react-icons/io5";
 import { SiInstagram } from "react-icons/si";
 import TapeDesignItem from '../TapeDesign/TapeDesignItem';
+import { FaGithub } from "react-icons/fa";
 
 export default function Footer() {
 
@@ -26,7 +26,7 @@ export default function Footer() {
                     <div className=' flex gap-7 mt-2 sm:justify-end justify-center items-center' >
                         <a href="mailto:iammdaarish@gmail.com" target='_blank' className='text-3xl hover:text-purple-200'><IoMail /></a>
                         <a href="https://www.instagram.com/" target='_blank' className='text-2xl hover:text-purple-200'><SiInstagram /></a>
-                        <a href="https://www.linkedin.com/in/md-aarish-88225a302/" target='_blank' className='text-2xl hover:text-purple-200'><IoLogoLinkedin /></a>
+                        <a href="https://github.com/mohammedAarish1?tab=repositories" target='_blank' className='text-2xl hover:text-purple-200'><FaGithub /></a>
                     </div>
                 </div>
                 <div className='flex justify-between items-center mt-5'>
